@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "Alessandro Forina", email = "alessandro.forina98@gmail.com"},
+]
+dependencies = []
+description = "A custom super-mario package for a quick and fun gameplay!"
+license = "MIT"
+name = "super-mario"
+requires-python  = ">=3.8"
+version = "0.0.1"
+
+[project.optional-dependencies]
+numpy = "numpy"
