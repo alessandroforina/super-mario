@@ -1,0 +1,33 @@
+# Build elements #
+###############################
+build/
+dist/
+*.egg-info/
+
+# Cache directories and files #
+###############################
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Directories content #
+###############################
+saves/*
+
+# Files #
+###############################
+*.log
+
+
+# OS generated files #
+###############################
+.DS_Store
+.DS_Store?
+._*
+
+# Virtual environment #
+###############################
+.venv/
